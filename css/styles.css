@@ -7,6 +7,7 @@
   --text-color: #757575;
   --hero-color: #2f303a;
   --team-color: #f5f4fa;
+  --rgba-color: rgba(255, 255, 255, 0.6);
   --main-font: "Roboto", sans-serif;
   --accent-font: "Raleway", sans-serif;
 }
@@ -80,6 +81,7 @@ a {
 .hero .title {
   font-size: 44px;
   line-height: 1.364;
+  text-transform: uppercase;
 }
 .button {
   background: var(--pretty-color);
@@ -90,6 +92,7 @@ a {
   padding: 10px 32px;
   border-radius: 4px;
   cursor: pointer;
+  font-family: inherit;
 }
 .button:hover,
 .button:focus {
@@ -103,6 +106,7 @@ a {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .text {
   font-weight: normal;
@@ -180,5 +184,5 @@ a {
   line-height: 1.714;
   letter-spacing: 0.03em;
 
-  color: var(--white-color);
+  color: var(--rgba-color);
 }
